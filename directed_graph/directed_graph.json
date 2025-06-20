@@ -265,19 +265,9 @@
     "type" : "Class",
     "package_path" : "se/citerus/dddsample/domain/model/voyage"
   }, {
-    "id" : "43r-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "RoutingStatus",
-    "type" : "Enumeration",
-    "package_path" : "se/citerus/dddsample/domain/model/cargo"
-  }, {
     "id" : "25o-9d031872126ab1efa5610292dbd2a1f9",
     "label" : "HandlingActivity",
     "type" : "Class",
-    "package_path" : "se/citerus/dddsample/domain/model/cargo"
-  }, {
-    "id" : "4n9-9d031872126ab1efa5610292dbd2a1f9",
-    "label" : "TransportStatus",
-    "type" : "Enumeration",
     "package_path" : "se/citerus/dddsample/domain/model/cargo"
   }, {
     "id" : "1y5-9d031872126ab1efa5610292dbd2a1f9",
@@ -310,6 +300,11 @@
     "type" : "Class",
     "package_path" : "types"
   }, {
+    "id" : "43r-9d031872126ab1efa5610292dbd2a1f9",
+    "label" : "RoutingStatus",
+    "type" : "Enumeration",
+    "package_path" : "se/citerus/dddsample/domain/model/cargo"
+  }, {
     "id" : "5ii-27eda60b1156757823c26df73b29df04",
     "label" : "ValueObject<RoutingStatus>",
     "type" : "Interface",
@@ -324,6 +319,11 @@
     "label" : "ValueObject",
     "type" : "Interface",
     "package_path" : "se/citerus/dddsample/domain/shared"
+  }, {
+    "id" : "4n9-9d031872126ab1efa5610292dbd2a1f9",
+    "label" : "TransportStatus",
+    "type" : "Enumeration",
+    "package_path" : "se/citerus/dddsample/domain/model/cargo"
   }, {
     "id" : "awi-27eda60b1156757823c26df73b29df04",
     "label" : "ValueObject<TransportStatus>",
@@ -1232,22 +1232,12 @@
     "label" : ""
   }, {
     "source" : "1p9-9d031872126ab1efa5610292dbd2a1f9",
-    "target" : "43r-9d031872126ab1efa5610292dbd2a1f9",
-    "type" : "Association",
-    "label" : ""
-  }, {
-    "source" : "1p9-9d031872126ab1efa5610292dbd2a1f9",
     "target" : "7ar-0bb89ca4ed9cffdba8a589b8ff0e7880",
     "type" : "Association",
     "label" : ""
   }, {
     "source" : "1p9-9d031872126ab1efa5610292dbd2a1f9",
     "target" : "25o-9d031872126ab1efa5610292dbd2a1f9",
-    "type" : "Association",
-    "label" : ""
-  }, {
-    "source" : "1p9-9d031872126ab1efa5610292dbd2a1f9",
-    "target" : "4n9-9d031872126ab1efa5610292dbd2a1f9",
     "type" : "Association",
     "label" : ""
   }, {
