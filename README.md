@@ -16,6 +16,11 @@ Clicking on the UML diagram image below opens the diagram in Diagram Map [*1](#f
 This audio was generated with Google NotebookLM based on the contents of this README. You may question some of the explanations, but overall the explanations are clear and informative. I'm sharing it here because I think it will help you get an initial understanding of the cargo shipping system's design.
 
 
+## Video guide
+🎞️ [Video guide for this project](https://takaakit.github.io/uml-diagram-for-ddd-example-in-evans-book/video/video_guide.mp4)  
+This video was generated with Google NotebookLM as well. It may strike viewers as somewhat low-budget in appearance, yet it provides an interesting sample for assessing how well current AI can understand and explain software design documents, so I am sharing it.
+
+
 ## User-system interaction
 This sequence diagram illustrates the key interactions between the user and the system, with references to other diagrams. The interactions show two use cases: (1) tracking the handling of specified cargo, and (2) booking new cargo followed by assigning it a delivery route. To understand the system requirements and specifications in detail, refer to Chapter 7 of Evans' book, Using the Language in an Example: A Cargo Shipping System.
 
